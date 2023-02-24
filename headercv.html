@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     
-    <title>Document</title>
+    <title>MI HOJA DE VIDA </title>
 </head>
 <body>
 
     <nav class="barra">
-         <div class="barr-div" >
-                  <div id="mostrarMensaje" class=" marco-not">
+         <div class="barr-div">
+                  <div id="mostrarMensaje" class="marco">
                        <p class="ventana">
-                         Su comentario fue enviado , GRACIAS !! <b><i class="bi bi-bag-check"></i></b>
+                         Su comentario fue enviado , GRACIA${/>} !! <b><i class="bi bi-bag-check"></i></b>
                          <b><i class="bi bi-emoji-laughing"></i></b>
-                         </p>
-                         <button class="btn-vtn" id="ocultar">ok</button>
+                          </p>
+                         <button class="btn-vtn" onclick="ocultar();">ok</button>
                   </div>
          
                 <button class="maletin"><a href="#">MI PORTAFOLIO DIGITAL</a>
@@ -30,13 +30,14 @@
                   <a href="#" class="row-1">MULTIDISEÑO html y css</a>
                   <a href="#" class="row-2">MAQUETANDO  front-end. </a>
                   <a href="#" class="row-3">LINUX  back-end.</a>
-                  <form action="" id="infoMensaje">
-                  <textarea cols="39" rows="8" style="text-align: center;"> </textarea>
-                  <input type="submit" onclick="limpiar();" id="btn-activar" value="Enviar Comentario" class="btn-comentario"> 
-                 </form>
+                  <form id="formulario">
+                  <textarea cols="39" rows="5" class="tex-area" > </textarea>
+                   </form>
+                  <input type="submit" onclick="mostrarVentana();" value="Enviar Comentario" class="btn-comentario" > 
+                                 
                 </div>
                 </button>
-                <div class="barr-git">gitHub<a href="#"><i class="bi bi-github"></i></a></div>
+                <div class="barr-git">gitHub<a target="_blank" href="https://github.com/juanCeferino"><i class="bi bi-github"></i></a></div>
                 
             </div>
     
@@ -52,7 +53,7 @@
         <img class="imgcv" src="nvacv.jpg" alt="foto curriculum">
          <div style="margin-top: 40px;">
             <h1 class="nombre"> JUAN CEFERINO QUINTAR </h1>
-            <h2 class="h2-nom"><i class="bi bi-check2-circle"></i>FULLSTACK</h2>
+            <h2 class="h2-nom"><i class="bi bi-check2-circle"></i>Full Stack</h2>
            <h2 class="h2-nom"> <i class="bi bi-check2-circle"></i>DEVELOPER</h2>
             </div>
            </header>
@@ -66,9 +67,9 @@
                 <p>Medanitos dir-028</p>
               
                <h4>TELEFONO</h4>
-                <p>3837-411204 <a href="#"><i class="bi bi-telephone"></i></a></p>
+                <p>+54 3837-411204 <a href="#"><i class="bi bi-telephone"></i></a></p>
                 <h4 style="margin: 25px -30px;"> CORREO ELECTRONICO</h4>
-                <button class="btn-gmail"><a href="#">quintarJack@gmail.com</a></button>
+                <button class="btn-gmail"><a href="#">quintarjack@gmail.com</a></button>
                    </div>
              </section>
         
@@ -117,7 +118,7 @@
     </div>
 </div>
 <div class="redes">
-    <div class="ico-redes ico-fac"><a href="https://m.facebook.com/"><i class="bis bi-facebook"></i></a></div>
+    <div class="ico-redes ico-fac"><a target="_blank" href="https://m.facebook.com/profile.php?id=100062662252512&eav=AfYZdceqh3b0J2EiNJlupNYwcmA38RKbq7XYJmBJBnzCp-PF-Gdx5UK-TzwT5mLv7vQ&tsid=0.7230994584009842&source=result"><i class="bis bi-facebook"></i></a></div>
     <div class="ico-redes"><a href="#"><i class="bis bi-twitter"></i></a></div>
     <div class="ico-redes"><a href="#"><i class="bis bi-instagram"></i></a></div>
     <div class="ico-redes"><a href="#"><i class="bis bi-whatsapp"></i></a></div>
